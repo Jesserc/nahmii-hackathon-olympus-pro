@@ -1,0 +1,60 @@
+.body {
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  .head-section {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    .nahmii-logo {
+      width: 25%;
+      margin: auto;
+      text-align: center;
+      img {
+        display: inline;
+      }
+    }
+  }
+  .card {
+    width: 70%;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    //gradient background
+    background-image: linear-gradient(
+      to right top,
+      #d16ba5,
+      #c665b1,
+      #b662be,
+      #9f61cb,
+      #7e63d8,
+      #6775e8,
+      #4786f5,
+      #0095ff,
+      #00b3ff,
+      #00ceff,
+      #00e6fd,
+      #5ffbf1
+    );
+    .card-details {
+      list-style: none;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+        grid-auto-rows: minmax(15px, auto);
+        padding: 20px 30px;
+        li {
+          list-style: none;
+        }
+      }
+      .bond-action {
+        border: 1px solid white;
+        text-align: center;
+        padding: 5px 15px;
+        width: 80px;
+        border-radius: 3px;
+      }
+    }
+  }
+}
