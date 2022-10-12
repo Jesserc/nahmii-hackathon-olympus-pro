@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="body">
         <div className="head-section">
           <div className="nahmii-logo">
-            <img src={Nahmii} alt="" /> <span>Bond</span>
+            <img src={Nahmii} alt="" />
           </div>
           <div className="title">
             Securing liquidity for protocols across DeFi
