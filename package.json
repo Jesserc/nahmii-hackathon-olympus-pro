@@ -1,16 +1,11 @@
 {
-<<<<<<< HEAD
-  "name": "olympous-pro-ui",
-=======
   "name": "olympuspro",
->>>>>>> 1aab96b (initial commit)
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jesserc/nahmii-hackathon-olympous-pro-frontend.git"
@@ -21,10 +16,7 @@
   "bugs": {
     "url": "https://github.com/Jesserc/nahmii-hackathon-olympous-pro-frontend/issues"
   },
-  "homepage": "https://github.com/Jesserc/nahmii-hackathon-olympous-pro-frontend#readme"
-=======
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/Jesserc/nahmii-hackathon-olympous-pro-frontend#readme",
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
@@ -47,5 +39,4 @@
     "typechain": "^8.1.0",
     "typescript": ">=4.5.0"
   }
->>>>>>> 1aab96b (initial commit)
 }
