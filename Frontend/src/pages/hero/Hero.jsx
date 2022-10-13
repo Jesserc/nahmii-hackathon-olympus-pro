@@ -19,11 +19,11 @@ const Hero = () => {
         <div className="card">
           <div className="card-details">
             <ul>
-              <li>Bonds</li>
-              <li>Payout Asset</li>
-              <li>Discount</li>
-              <li>TBV</li>
-              <li></li>
+              <li className="card-list-item">Bonds</li>
+              <li className="card-list-item">Payout Asset</li>
+              <li className="card-list-item">Discount</li>
+              <li className="card-list-item">TBV</li>
+              <li className="card-list-item"></li>
             </ul>
             {data &&
               data.map((items) => {

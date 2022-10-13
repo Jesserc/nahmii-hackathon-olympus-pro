@@ -20,7 +20,7 @@
     margin: auto;
     color: white;
     border-radius: 10px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgb(151, 151, 151);
     //gradient background
     background-image: linear-gradient(
       to right top,
@@ -44,7 +44,7 @@
         grid-template-columns: repeat(5, 1fr);
         gap: 5px;
         grid-auto-rows: minmax(15px, auto);
-        padding: 20px 30px;
+        padding: 30px 100px 20px 100px;
         li {
           list-style: none;
         }
@@ -55,7 +55,12 @@
         padding: 5px 15px;
         width: 80px;
         border-radius: 3px;
+        box-shadow: 0 0 20px -3px #00399c;
       }
     }
   }
+}
+.card-list-item{
+  font-size: 17px;
+  font-weight: bolder;
 }
