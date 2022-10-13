@@ -9,9 +9,9 @@
   background-color: #ffff;
   color: #902784;
   font-size: 0.9rem;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
-    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
-    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  // box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+  //   rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+  //   rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   .left-items {
     flex: 1.5;
     ul {
@@ -37,5 +37,101 @@
       padding: 10px 25px;
       border-radius: 2px;
     }
+  }
+}
+
+
+
+///////////////////////////////////////////////////////////////BONDS////////////////////////////////////////////////////////////
+
+.bond{
+  width: 35%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top:  10rem;
+  padding: 1rem;
+  color: #fff;
+  background-image: linear-gradient(
+      to right top,
+      #d16ba5,
+      #c665b1,
+      #b662be,
+      #9f61cb,
+      #7e63d8,
+      #6775e8,
+      #4786f5,
+      #0095ff,
+      #00b3ff,
+      #00ceff,
+      #00e6fd,
+      #5ffbf1
+    );
+   &__name{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+   } 
+
+   &__details{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    &--market{
+      font-size:  1.7rem;
+      font-weight: 100;
+      text-transform: capitalize;
+    }
+   }
+
+   &__bigbutton{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+
+    &--text{
+      padding: 8px;
+      border:  2px solid #0095ff;
+      text-transform: capitalize;
+      transition: all .2s;
+     
+
+      &:hover{
+        background-color: #0095ff;
+        border:  1px solid #fff;
+        padding: 9px;
+      }
+
+    }
+   }
+
+}
+
+.bonds{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  &__give{
+
+    &--image{
+      display: flex;
+    }
+
+    &--get{
+      display: flex;
+    }
+  }
+
+}
+
+.checks{
+  font-size: 0.9rem;
+  line-height: 0;
+
+  &__bond{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
   }
 }

@@ -1,7 +1,7 @@
 const data = [
   {
     bondImage: "#",
-    bondName: "RAIDER-ETH SLP",
+    bondName: "NV-DOLA SLP",
     payoutAssetImage: "#",
     payoutAssetTokenPrice: "$0.0346",
     discount: "-3.65%",
@@ -19,7 +19,7 @@ const data = [
   },
   {
     bondImage: "#",
-    bondName: "RAIDER-ETH SLP",
+    bondName: "USDT",
     payoutAssetImage: "#",
     payoutAssetTokenPrice: "$0.0346",
     discount: "-3.65%",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     bondImage: "#",
-    bondName: "RAIDER-ETH SLP",
+    bondName: "USDC",
     payoutAssetImage: "#",
     payoutAssetTokenPrice: "$0.0346",
     discount: "-3.65%",
@@ -37,7 +37,7 @@ const data = [
   },
   {
     bondImage: "#",
-    bondName: "RAIDER-ETH SLP",
+    bondName: "WETH",
     payoutAssetImage: "#",
     payoutAssetTokenPrice: "$0.0346",
     discount: "-3.65%",

@@ -1,10 +1,8 @@
-import Hero from "../hero/Hero";
-import Nav from "../nav/Nav";
+import Hero from  "../pages/hero/Hero"
 
 const Main = () => {
   return (
     <div>
-      <Nav />
       <Hero />
     </div>
   );

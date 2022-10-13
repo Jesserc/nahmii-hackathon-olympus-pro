@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import img from "../../images/img";
 import data from "../../utils/data";
 import Nahmii from "../../images/nahmii-logo.svg";
+import { Outlet, Link } from "react-router-dom";
 
 import "./hero.scss";
 const Hero = () => {
@@ -26,20 +27,25 @@ const Hero = () => {
               <li className="card-list-item"></li>
             </ul>
             {data &&
-              data.map((items) => {
+              data.map((items, index) => {
                 return (
-                  <ul>
+                  <ul key={index}>
                     <li>{`${items.bondImage} - ${items.bondName}`}</li>
                     <li>{`${items.payoutAssetImage} - ${items.payoutAssetTokenPrice}`}</li>
                     <li>{items.discount}</li>
                     <li>{items.tbv}</li>
-                    <li className="bond-action">{items.action}</li>
+                    <Link to={`bond/${index}`} >
+                      <li className="bond-action">  
+                        {items.action}
+                      </li>
+                    </Link>
                   </ul>
                 );
               })}
           </div>
         </div>
       </div>
+      <Outlet />
     </Fragment>
   );
 };
