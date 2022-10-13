@@ -34,7 +34,7 @@ const Hero = () => {
                     <li>{`${items.payoutAssetImage} - ${items.payoutAssetTokenPrice}`}</li>
                     <li>{items.discount}</li>
                     <li>{items.tbv}</li>
-                    <Link to={`bond/${index}`} >
+                    <Link to={`bond/${index}`} className="link">
                       <li className="bond-action">  
                         {items.action}
                       </li>
