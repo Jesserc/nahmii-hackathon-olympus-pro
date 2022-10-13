@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import "./nav.scss";
+import { Outlet, Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -8,8 +9,12 @@ const Nav = () => {
         {/* for top left nav items */}
         <div className="left-items">
           <ul>
-            <li>Markets</li>
+            <Link className="link" to={`/`}> 
+              <li>Markets</li>
+            </Link>
+            <Link className="link" to={`Patners/`}> 
             <li>Partners</li>
+            </Link>
           </ul>
         </div>
         {/* for top right nav items */}
@@ -18,6 +23,7 @@ const Nav = () => {
           <button>Connect</button>
         </div>
       </div>
+      <Outlet/>
     </Fragment>
   );
 };

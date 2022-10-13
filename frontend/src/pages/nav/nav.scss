@@ -136,4 +136,14 @@
 
 .link{
   text-decoration: none;
+  &:active{
+    color:#fff
+  }
+}
+
+.close{
+  background-color: black;
+  padding: 7px;
+  border-radius: 50%;
+  border: none;
 }
